@@ -1,3 +1,5 @@
+
+// comment added...
 import React, { useState } from "react";
 import axios from "axios";
 import { AiFillFacebook, AiOutlineGoogle } from "react-icons/ai";
@@ -13,7 +15,7 @@ const SignUp = () => {
   function togglePasswordVisibility() {
     setIsPasswordVisible((prevState) => !prevState);
   }
-
+  // fixed indentation....
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError(false);
